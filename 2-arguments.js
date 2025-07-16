@@ -1,9 +1,9 @@
-const age = 20;
+const age = process.argv.slice(2);
 
-if (arg === 20){
+if (age.length === 0){
     console.log('No argument'); 
-} else if(arg <= 20) {
+} else if(age.length === 3) {
     console.log('Argument found');
-} else (arg > 20 ); {
+} else  {
     console.log('Arguments found');
 }
