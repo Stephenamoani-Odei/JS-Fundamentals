@@ -1,9 +1,5 @@
 
-   const nameOfarg1 = "C is cool";
+   const nameOfarg1 = process.argv[3];
+   const nameOfarg2 = process.argv[4];
    
-    nameOfarg2= nameOfarg1 [''];
-    nameOfarg3 = nameOfarg2;
-
-    console.log(nameOfarg1)
-    console.log( 'HBTN', 'is', nameOfarg2);
-    console.log(nameOfarg3, 'is', nameOfarg2);
+    console.log(nameOfarg3+, 'is', +nameOfarg5);
